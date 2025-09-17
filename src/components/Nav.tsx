@@ -12,7 +12,7 @@ function Nav() {
       <div className="hidden md:flex md:flex-row md:justify-between md:items-center px-6 py-4 text-sm">
         <img className="w-12 h-12" src={iCD} alt="iCD logo" />
 
-        <div className="flex flex-row gap-10 font-light text-small items-center">
+        <div className="flex flex-row gap-10 text-small items-center">
           <Link
             to="/ourWork"
             className="inline-flex items-center justify-center gap-1"
