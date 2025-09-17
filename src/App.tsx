@@ -6,6 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/gallery/category/subcategory" element={<Home />} />
       </Routes>
     </BrowserRouter>
